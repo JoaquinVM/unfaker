@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Readit - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Unfaker</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -21,13 +21,15 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body style="background: radial-gradient(circle, rgba(227,106,202,1) 65%, rgba(247,255,52,100) 100%);;">
     <!-- END nav -->
-    <section class="ftco-section contact-section" >
-        <div class="row block-2 no-gutters d-flex justify-content-center ">
-          <div >
-            <div class="navbar-brand" style="font-size: 50px; text-align: center;"><i>Un</i><i>faker</i>.</div>
+    <section class="ftco-section" >
+        <div class="row justify-content-center ">
+          <div class="col-4 px-md-0 navbar-expand-lg navbar-dark ftco_navbar">
+            <div class="col-12 navbar-brand" style="font-size: 50px; text-align: center;">Un<i>faker</i>.</div>
             <form action="#" class="bg-light p-8 p-md-5 form-group">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Nombre">
@@ -63,7 +65,11 @@
                 <input type="password" class="form-control" placeholder="Password">
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Repeat Password">
+              </div>
+
+              <div class="form-group d-flex justify-content-center">
+                <div class="g-recaptcha" data-sitekey="6Lfy5eAUAAAAAPOVJWqA0wF39Tyx0swsksY8KyOg"></div>
               </div>
               <div class="form-group d-flex justify-content-center h-10">
                 <input type="submit" value="Sign In" class="btn btn-primary py-3 px-5">
@@ -74,6 +80,7 @@
         </div>
       </div>
     </section>
+    
    
 
   
